@@ -1,0 +1,157 @@
+﻿Level Design:
+
+More coins
+
+Can't die at the first 3 levels
+
+
+3D
+- Can cross block if the car is very fast
+
+- Shadow
+
+
+Bg: 
+Refer to: Dune! / Ball Blast / Flappy Dunk! / Stickman Hook / Fire Rides
+
+
+Bug:
+- REWARD(LosePanel) appears but I didn't crash
+- Sometimes touch cannot start game
+- Level2 end line too early
+- Some Clouds are out of screen
+
+
+- Virsual line behind the finger in the MainPanel
+- The key should fly to the left top pos when you get it
+
+
+Music & Sounds:
+- BGM
+- Button click / Crash / Win / New record
+
+
+Private Policy URL:
+refer to:
+Tricky Taps: tabtale.com/privacy www.crazylabs.com/terms-of-use/
+Sort It 3D: www.supersonic.com/privacy/
+Sky Roller: homagames.com/privacy
+(Maybe need to rent a server)
+
+
+Evaluation guide:
+- When finish 3 games, popup a guide for evaluation and rating
+
+
+
+------------Finished-----------------
+
+Ads SDK (ok)
+- Bottom banner: always (ok)
+- Interstitial (can skip): win 2 games or lose 5 games (ok)
+- Small video: main panel (optional)
+- Rewarded Video(cannot skip) (ok)
+- If the ads are not ready yet... (just a tips. TODO: Spinning UI)
+1. Finish game normally, *3 the rewards (ok)
+2. Trible the rewards of a lucking wheel (optional)
+3. Trible the offline reward (optional)
+4. Skip level (ok)
+5. Buy coins directly in the shop (ok)
+6. Get free balls in the shop (ok)
+7. Revive (ok)
+
+Battle:
+- Speed should becomes faster and faster in endless mode (ok)
+- Block change: updownRect -> circle -> rect -> updownrect ... (ok)
+
+- new blocks:
+moving rect(ok)
+moving circle(ok)
+rotating stick(ok)
+wave(ok)
+
+- Bonus level: Coin collection (ok)
+- Change the bottom min pos due to the banner (ok)
+- Something wrong with the destination pos and speed (ok)
+- Level design: After a period of tough games, give a break to the player (ok)
+- Gain coins in the games all the way (ok)
+- Uphill slower, downhill faster? (NO)
+- The quantity of Normal Level should be endless (ok)
+- Level design: Refer to Sky Roller (ok)
+- The chest keys appear in the middle of a "up down rect" before the finish line (ok)
+- Checkpoint and revive (ok)
+- Explode when crashed (ok)
+- Finish line style (ok)
+
+Shops:
+- Ball shop(ok)
+- Road shop(ok)
+Ball shop:
+1. normal: buy with coins(cheap) (ok)
+2. advanced: buy with coins(expensive) (ok)
+3. epic: watch ads unlock random (ok)
+4. legendary: chest room (ok)
+5. VIP: subscription (optional)
+Road shop:(ok)
+get with achievements completed(ok)
+
+
+GameCenter: 
+Push the highest score to the GameCenter
+Achievement: pass 20/50/80/100 levels (optional)
+TODO: image of the Leaderboard(can use game icon)
+TODO: no data, continue after IAP finished (ok)
+
+
+Purchase: (ok)
+- Remove Ads ($1.99) (ok)
+- Unlock all Items (optional)
+- Restore purchase (ok)
+TODO: Ask pingpong how to fill the form (ok)
+
+
+Name: (ok)
+Road Master
+Best Road
+Super Road
+Magic Road! (good!)
+
+
+Vibrate:(ok)
+- Vibrate when crash (ok)
+- SettingPanel can turn vibration to off (ok)
+
+
+--------------Optional------------
+
+Apple Recommendation
+
+
+Language:
+- Support English and Chinese(simplified & traditional)
+- Setting panel can change language
+
+
+Lucking wheel:
+- 20% popup when finishing a game.
+- If watch an ad, the rewards can be tribled.
+
+
+Gift:
+- Appears randomly after a game. Can only be opened after watching an ad
+
+
+Push:
+- Popup a push everyday
+- Popup a push when the offline reward is full
+
+
+Offline rewards:
+- When login every time, popup a panel to gain the offline reward
+- If watch an ad, the rewards can be tribled.
+
+
+Subscription:
+- Become a VIP and remove all ads, gain all the items in the shops, and what?
+
+
