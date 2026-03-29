@@ -16,6 +16,7 @@ An **interactive road-drawing game** built with **Unity (C#)**, where players dy
 
 - **Engine:** Unity  
 - **Language:** C#  
+- **Version Control:** Git
 
 ---
 
